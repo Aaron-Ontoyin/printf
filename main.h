@@ -7,7 +7,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-
+/**
+ * struct fs_func_struct - a structure repping a formatted string by
+ * it's character and a pointer to a function that prints it
+ * @fs: char repping the formatted string
+ * @func: a function that prints the string
+ */
 typedef struct fs_func_struct
 {
 	char fs;
