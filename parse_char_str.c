@@ -28,6 +28,7 @@ int parse_str(va_list arg, int n_chars_printed)
 	{
 		write(1, str, 1);
 		str++;
+		n_chars_printed++;
 	}
 	return (n_chars_printed);
 }
