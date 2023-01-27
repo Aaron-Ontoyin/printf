@@ -11,7 +11,7 @@ int parse_char(va_list arg, int n_chars_printed)
 	char c = va_arg(arg, int);
 
 	write(1, &c, 1);
-	return (++n_chars_printed);
+	return (n_chars_printed++);
 }
 
 /**
@@ -47,5 +47,5 @@ int parse_perc(va_list arg, int n_chars_printed)
 	c = '%';
 
 	write(1, &c, 1);
-	return (++n_chars_printed);
+	return (n_chars_printed++);
 }
