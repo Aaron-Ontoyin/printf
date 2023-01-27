@@ -6,7 +6,6 @@
  * @n_chars_printed: number of chars printed
  * Return: Number of chars printed
  */
-i
 int parse_int(va_list arg, int n_chars_printed)
 {
 	int base = 10;
@@ -38,7 +37,6 @@ int parse_oct(va_list arg, int n_chars_printed)
  * @base: base to print the number in
  * Return: Number of chars printed
  */
-i
 int print_val(int n, int n_chars_printed, int base)
 {
 	unsigned int k = n;

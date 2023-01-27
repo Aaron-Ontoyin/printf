@@ -1,12 +1,11 @@
 #include "main.h"
+
 /**
  * _printf - outputs string to the stdout
  * fs_funcs - stores the functions which print the different data types
  * @format: string to be printed
  * Return: passed string
  */
-
-
 int _printf(const char *format, ...)
 {
 	fs_func fs_funcs[] = {

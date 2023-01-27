@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
  * parse_char - print characters
  * @arg: stores arguments passed
  * @n_chars_printed: characters to be printed
  * Return: passed characters
  */
-
 int parse_char(va_list arg, int n_chars_printed)
 {
 	char c = va_arg(arg, int);
@@ -20,7 +20,6 @@ int parse_char(va_list arg, int n_chars_printed)
  * @n_chars_printed: characters to be printed
  * Return: passed characters
  */
-
 int parse_str(va_list arg, int n_chars_printed)
 {
 	char *str = va_arg(arg, char *);
